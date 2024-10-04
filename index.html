@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Customer Feedback System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sandeep Customer Feedback System</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Welcome to Sandeep's Blog</h2>
+        <div class="blog-content">
+            <img src="blog1.jpg" alt="Customer Satisfaction" class="blog-img">
+            <div class="blog-text">
+                <h3>Our Journey to Exceptional Service</h3>
+                <p>At Sandeep Customer Feedback System, we believe in providing the best experience for our customers. Our blog shares insights into how we continually improve and maintain our high standards.</p>
+            </div>
+        </div>
+
+        <div class="blog-content">
+            <img src="blog2.jpg" alt="Customer Feedback" class="blog-img">
+            <div class="blog-text">
+                <h3>How Feedback Shapes Our Service</h3>
+                <p>Customer feedback is the backbone of our service improvements. Discover how we use your valuable input to enhance our operations and make your experience even better.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Sandeep Customer Feedback System, our mission is to empower customers by providing a platform where their voices are heard, and their feedback is valued. We understand that customer satisfaction is key to the success of any business, and we are dedicated to improving the quality of services through the insights shared by our users. Our team is passionate about creating an open, transparent space where customers can share their experiences, helping us continuously refine and enhance our service delivery.</p>
+        <br>
+          <p>  Founded on the principles of trust and customer-centricity, our platform strives to bridge the gap between businesses and their customers. By analyzing and acting upon the valuable feedback provided, we aim to foster a collaborative environment that benefits both service providers and consumers alike. We believe in the power of customer insights to drive meaningful change and innovation, enabling businesses to grow and adapt to the ever-changing needs of their audience.</p>
+        <br>
+         <p>  At Sandeep Customer Feedback System, we are more than just a feedback collection tool—we are a partner in your journey towards service excellence. Our commitment to building lasting relationships with our customers is reflected in the quality of the service we provide. By encouraging open dialogue, we aim to create a platform where businesses can thrive, and customers feel their opinions truly matter.</p>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <h2>Leave Your Feedback</h2>
+        <form action="" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="rating">Rate our service:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+            <label for="comments">Your Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
